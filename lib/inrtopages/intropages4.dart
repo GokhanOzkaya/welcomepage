@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class IntroPage2 extends StatelessWidget {
-  const IntroPage2({Key? key}) : super(key: key);
+class IntroPage4 extends StatelessWidget {
+  const IntroPage4({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class IntroPage2 extends StatelessWidget {
         children: [
           Expanded(
             child: Image.asset(
-              'assets/images/a.png',
+              'assets/images/b.png',
             ),
           ),
           Container(

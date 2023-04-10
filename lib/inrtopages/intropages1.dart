@@ -1,31 +1,24 @@
 import 'package:flutter/material.dart';
+import 'package:onboarding/onboarding.dart';
+
 class IntroPage1 extends StatelessWidget {
   const IntroPage1({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
-   Column(
-     children: [Image.asset('assests/images/Görevlerini Takip Et.png',width: 300,
-       height: 400,)
 
-     ],
-   );
     return Container(
-
-
-      color:Colors.pink.shade100,);
-
-
-
-
-
-
-
-
-
-
-
-
+      color: Colors.white,
+      child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Expanded(
+            child: Image.asset(
+              'assets/images/WhatsApp Görsel 2023-04-10 saat 00.49.15.jpg',
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
